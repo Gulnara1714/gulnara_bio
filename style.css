@@ -1,0 +1,77 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.hero {
+    height: 100vh0;
+    width: 100%;
+    background-color: rgb(56, 51, 51);
+}
+
+nav {
+    width: auto;
+    height: 50px;
+    background-color: rgb(56, 51, 51);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+li {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    cursor: pointer;
+}
+li:hover {
+    color: red;
+}
+.content-one {
+    padding: 0%;
+    width: auto;
+    height: 600px;
+    background-image: url(https://images.unsplash.com/photo-1664516918198-e7ddd1bade3c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+}
+.content-two {
+    width: auto;
+    height: 600px;
+    background-image: url(https://images.unsplash.com/photo-1664436341001-b02974ae7524?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;    
+}
+.content-three {
+    width: auto;
+    height: 600px;
+    background-image: url(https://images.unsplash.com/photo-1574063413132-354db9f190fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;    
+}
+.content-fouf {
+    width: auto;
+    height: 600px;
+    background-image: url(https://images.unsplash.com/photo-1547245324-d777c6f05e80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%; 
+}
+.logo {
+    color: white;
+    font-size: 50px;
+    padding: 40px;
+}
+.btn {
+    padding: 10px 25px;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border: 20px solid transparent;
+    border-radius: 30px;
+}
